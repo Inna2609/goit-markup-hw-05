@@ -50,7 +50,11 @@
         <section class="hero hero-bg">
            <div class="container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button class="button btn" type="button">Заказать услугу</button>
+                <button data-modal-open class="button btn" type="button">Заказать услугу</button>
+                <div data-modal class="backdrop is-hidden">
+                    <div class="modal"></div>
+                    <button data-modal-close></button>
+                </div>
            </div>
         </section>
    
