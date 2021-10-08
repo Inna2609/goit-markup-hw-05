@@ -697,7 +697,10 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
+.gallery-link:focus .overlay-text {
+  transform: translateY(0);
+  opacity: 0.9;
+}
 .gallery-paragraph {
   font-weight: 400;
   font-size: 16px;
@@ -723,7 +726,7 @@ body {
   line-height: 1.55;
   color: var(--primary-white-color);
   background-color: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* -------FOOTER--------- */
